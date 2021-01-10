@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "isomorphic-unfetch": "^3.1.0",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod",
+    "try" : "curl http://localhost:3000/api?url=http://ppp-mmi.now.sh"
+  },
+  "devDependencies": {
+    "vercel": "^21.0.1"
+  }
+}
